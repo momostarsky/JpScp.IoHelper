@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpScp.IoHelper", "JpScp.IoHelper\JpScp.IoHelper.csproj", "{3F7F0F2F-42D2-451A-8D6B-1A564D287676}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpScp.UnitTests", "JpScp.UnitTests\JpScp.UnitTests.csproj", "{7F608564-5B8C-4218-8A20-1897BC0A553F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpScp.ScpWrapper", "JpScp.ScpWrapper\JpScp.ScpWrapper.csproj", "{4C7EA598-BCF4-49BA-BF7D-F8CF3F6E4F6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{3F7F0F2F-42D2-451A-8D6B-1A564D287676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F7F0F2F-42D2-451A-8D6B-1A564D287676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F7F0F2F-42D2-451A-8D6B-1A564D287676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F608564-5B8C-4218-8A20-1897BC0A553F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F608564-5B8C-4218-8A20-1897BC0A553F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F608564-5B8C-4218-8A20-1897BC0A553F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F608564-5B8C-4218-8A20-1897BC0A553F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7EA598-BCF4-49BA-BF7D-F8CF3F6E4F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7EA598-BCF4-49BA-BF7D-F8CF3F6E4F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7EA598-BCF4-49BA-BF7D-F8CF3F6E4F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7EA598-BCF4-49BA-BF7D-F8CF3F6E4F6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
