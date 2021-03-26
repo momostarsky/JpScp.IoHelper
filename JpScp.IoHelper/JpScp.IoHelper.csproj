@@ -45,6 +45,22 @@
           <HintPath>..\packages\log4net.2.0.12\lib\net45\log4net.dll</HintPath>
           <Private>True</Private>
         </Reference>
+        <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+          <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+          <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Server.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+          <HintPath>..\packages\Microsoft.AspNetCore.Http.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.AspNetCore.Http.Features, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+          <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
         <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
           <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
           <Private>True</Private>
@@ -223,11 +239,22 @@
         </Reference>
         <Reference Include="System.Web" />
         <Reference Include="System.Xml" />
+        <Reference Include="Unity.Abstractions, Version=5.11.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0">
+          <HintPath>..\packages\Unity.Abstractions.5.11.2\lib\net47\Unity.Abstractions.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Unity.Container, Version=5.11.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0">
+          <HintPath>..\packages\Unity.Container.5.11.4\lib\net47\Unity.Container.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Unity.Microsoft.DependencyInjection, Version=5.11.5.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0">
+          <HintPath>..\packages\Narik.Unity.Microsoft.DependencyInjection.5.11.5\lib\netstandard2.0\Unity.Microsoft.DependencyInjection.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="MemEntity.cs" />
-        <Compile Include="MemPool.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="StreamUtils.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="log4net.config">

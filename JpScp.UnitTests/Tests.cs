@@ -1,17 +1,26 @@
 ﻿using System;
+using System.IO;
+using System.Threading.Tasks;
 using NUnit.Framework;
-
+using JpScp.IoHelper;
 namespace JpScp.UnitTests
 {
     [TestFixture]
     public class Tests
     {
         [Test]
-        public void Test1()
+        public async  Task Test1()
         {
-            var mp = new JpScp.IoHelper.MemPool(1024);
-            var b = mp.GetBuffer();
-            Assert.IsNull( b ,"FirstCall size is zero!");
+            using (var fr=System.IO.File.OpenRead("/home/dhz/dcmdata/1.dcm"))
+            using (var fw = File.OpenWrite("/home/dhz/dcmdata/1-A.dcm"))
+            {
+               await   fr.CopyToAsync(fw); 
+         
+                fr.Close();
+                fw.Close();
+            } 
+           
+            
         }
     }
 }
